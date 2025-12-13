@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class main 
+{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int a=-7;
+       if(a>0 )
+          System.out.println("Positive");  
+       
+       else
+           System.out.println("Negative");
+    }
+}
