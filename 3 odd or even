@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Q11 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int firstDigit = num / 100;
+        if (firstDigit % 2 == 0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+    }
+}
