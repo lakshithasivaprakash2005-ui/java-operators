@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double radius = sc.nextDouble();
+        double height = sc.nextDouble();
+
+        if (radius > 0 && height > 0) {
+            double surfaceArea = 2 * Math.PI * radius * height + 2 * Math.PI * radius * radius;
+            double volume = Math.PI * radius * radius * height;
+
+            System.out.println( + surfaceArea);
+            System.out.println( + volume);
+        } else {
+            System.out.println("Radius and Height must be positive");
+        }
+    }
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class void main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double length = sc.nextDouble();
+        double breadth = sc.nextDouble();
+        double height = sc.nextDouble();
+
+        if (length > 0 && breadth > 0 && height > 0) {
+            double surfaceArea = 2 * (length * breadth + breadth * height + length * height);
+            double volume = length * breadth * height;
+
+            System.out.println(+ surfaceArea);
+            System.out.println( + volume);
+        } else {
+            System.out.println("Dimensions must be positive");
+        }
+    }
+}

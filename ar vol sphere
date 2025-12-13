@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class main 
+ {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double radius = sc.nextDouble();
+
+        if (radius > 0) {
+            double surfaceArea = 4 * Math.PI * radius * radius;
+            double volume = (4.0 / 3.0) * Math.PI * radius * radius * radius;
+
+            System.out.println( + surfaceArea);
+            System.out.println( + volume);
+        } else {
+            System.out.println("Radius must be positive");
+        }
+    }
+}
