@@ -1,0 +1,6 @@
+class main {
+    public static void main(String[] args) {
+        int num = 255;
+        System.out.printf("%o", num);
+    }
+}

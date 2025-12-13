@@ -1,0 +1,6 @@
+class main {
+    public static void main(String[] args) {
+        int ascii = 65;
+        System.out.println((char) ascii);
+    }
+}

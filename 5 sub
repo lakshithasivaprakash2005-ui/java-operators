@@ -1,0 +1,8 @@
+class main {
+    public static void main(String[] args) {
+        int[] marks = {90, 85, 88, 92, 80};
+        for (int m : marks) {
+            System.out.println(m);
+        }
+    }
+}

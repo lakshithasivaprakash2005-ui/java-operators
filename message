@@ -1,0 +1,5 @@
+lass main {
+    public static void main(String[] args) {
+        String message = "This is a message";
+        System.out.println(message);
+    }

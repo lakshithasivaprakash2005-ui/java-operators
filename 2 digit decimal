@@ -1,0 +1,6 @@
+class main {
+    public static void main(String[] args) {
+        double num = 123.456;
+        System.out.printf("%.2f", num);
+    }
+}
